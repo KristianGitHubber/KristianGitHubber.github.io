@@ -3,6 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Christmas Quotes Calendar</title>
+  body:before {
+      content: '';
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: url('https://source.unsplash.com/900x900/?christmas') repeat; /* Change the URL to your preferred Christmas-themed image */
+      opacity: 0.1; /* Adjust the opacity as needed */
+      pointer-events: none;
+      z-index: -1;
+    }
   <style>
     /* CSS for the squares */
     .square {
