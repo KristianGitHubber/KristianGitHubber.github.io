@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Numbered Squares</title>
+  <title>Christmas Quotes Calendar</title>
   <style>
     /* CSS for the squares */
     .square {
@@ -11,47 +11,40 @@
       background-color: red;
       color: white;
       text-align: center;
-      line-height: 120px;
+      line-height: 1.4; /* Adjust line height for multi-line quotes */
       display: inline-block;
       margin: 10px;
+      cursor: pointer; /* Add pointer cursor to indicate clickable */
     }
   </style>
-  </style>
-  <link rel="stylesheet" href="index.css">
 </head>
-<body>
-  <body style="background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Frealistic-christmas&psig=AOvVaw0auIci2d1SoGeL6c1Hh4yG&ust=1701783257011000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCNDwqefy9YIDFQAAAAAdAAAAABAD');">
+<body style="background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Frealistic-christmas&psig=AOvVaw0auIci2d1SoGeL6c1Hh4yG&ust=1701783257011000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCNDwqefy9YIDFQAAAAAdAAAAABAD');">
 
-
-    <h1> Welcome to the official christmas calendar </h1>
-    <h2> Click on todays date for a christmas surprise</h2>
-<!-- Divs for the squares, each containing a number from 1 to 24 -->
+<!-- Divs for the squares, each containing a quote for each day -->
 <div>
-    <div class="square">1</div>
-  <div class="square">2</div>
-  <div class="square">3</div>
-  <div class="square">4</div>
-  <div class="square">5</div>
-  <div class="square">6</div>
-  <div class="square">7</div>
-  <div class="square">8</div>
-  <div class="square">9</div>
-  <div class="square">10</div>
-  <div class="square">11</div>
-  <div class="square">12</div>
-  <div class="square">13</div>
-  <div class="square">14</div>
-  <div class="square">15</div>
-  <div class="square">16</div>
-  <div class="square">17</div>
-  <div class="square">18</div>
-  <div class="square">19</div>
-  <div class="square">20</div>
-  <div class="square">21</div>
-  <div class="square">22</div>
-  <div class="square">23</div>
-  <div class="square">24</div>
+  <div class="square" onclick="displayQuote('The best way to spread Christmas cheer is singing loud for all to hear. - Elf')">The best way to spread Christmas cheer is singing loud for all to hear. - Elf</div>
+  <div class="square" onclick="displayQuote('Christmas isn’t a season. It’s a feeling. - Edna Ferber')">Christmas isn’t a season. It’s a feeling. - Edna Ferber</div>
+  <div class="square" onclick="displayQuote('Christmas waves a magic wand over this world, and behold, everything is softer and more beautiful. - Norman Vincent Peale')">Christmas waves a magic wand over this world, and behold, everything is softer and more beautiful. - Norman Vincent Peale</div>
+  <div class="square" onclick="displayQuote('The spirit of Christmas is the spirit of love and of generosity and of goodness. - Thomas S. Monson')">The spirit of Christmas is the spirit of love and of generosity and of goodness. - Thomas S. Monson</div>
+  <div class="square" onclick="displayQuote('Christmas is a day of meaning and traditions, a special day spent in the warm circle of family and friends. - Margaret Thatcher')">Christmas is a day of meaning and traditions, a special day spent in the warm circle of family and friends. - Margaret Thatcher</div>
+  <div class="square" onclick="displayQuote('Blessed is the season which engages the whole world in a conspiracy of love. - Hamilton Wright Mabie')">Blessed is the season which engages the whole world in a conspiracy of love. - Hamilton Wright Mabie</div>
+  <div class="square" onclick="displayQuote('Christmas, my child, is love in action. - Dale Evans')">Christmas, my child, is love in action. - Dale Evans</div>
+  <div class="square" onclick="displayQuote('He who has not Christmas in his heart will never find it under a tree. - Roy L. Smith')">He who has not Christmas in his heart will never find it under a tree. - Roy L. Smith</div>
+  <div class="square" onclick="displayQuote('The best of all gifts around any Christmas tree: the presence of a happy family all wrapped up in each other. - Burton Hillis')">The best of all gifts around any Christmas tree: the presence of a happy family all wrapped up in each other. - Burton Hillis</div>
+  <div class="square" onclick="displayQuote('Christmas is not a time nor a season, but a state of mind. - Calvin Coolidge')">Christmas is not a time nor a season, but a state of mind. - Calvin Coolidge</div>
+  <div class="square" onclick="displayQuote('Gifts of time and love are surely the basic ingredients of a truly merry Christmas. - Peg Bracken')">Gifts of time and love are surely the basic ingredients of a truly merry Christmas. - Peg Bracken</div>
+  <div class="square" onclick="displayQuote('Christmas is doing a little something extra for someone. - Charles M. Schulz')">Christmas is doing a little something extra for someone. - Charles M. Schulz</div>
+  <div class="square" onclick="displayQuote('Peace on earth will come to stay when we live Christmas every day. - Helen Steiner Rice')">Peace on earth will come to stay when we live Christmas every day. - Helen Steiner Rice</div>
+  <div class="square" onclick="displayQuote('Christmas is the day that holds all time together. - Alexander Smith')">Christmas is the day that holds all time together. - Alexander Smith</div>
+  <div class="square" onclick="displayQuote('At Christmas, all roads lead home. - Marjorie Holmes')">At Christmas, all roads lead home. - Marjorie Holmes</div>
+  <!-- Add the remaining quotes for each day -->
 </div>
+
+<script>
+  function displayQuote(quote) {
+    alert(quote); // You can modify this to display the quote differently (e.g., in a modal or on the page)
+  }
+</script>
 
 </body>
 </html>
