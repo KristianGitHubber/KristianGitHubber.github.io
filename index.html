@@ -2,25 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Christmas Calendar</title>
+  <title>Numbered Squares</title>
+  <style>
+    /* CSS for the squares */
+    .square {
+      width: 30px;
+      height: 30px;
+      background-color: red;
+      color: white;
+      text-align: center;
+      line-height: 30px;
+      display: inline-block;
+      margin: 2px;
+    }
+  </style>
 </head>
 <body>
 
-<div style="display: flex; flex-wrap: wrap; width: 300px;">
-  <!-- Create boxes for the calendar -->
-  <!-- Each box represents a day from 1 to 24 -->
-  <!-- Styling the boxes with Christmas colors -->
-  <!-- Using a loop to generate boxes for all days -->
-  <!-- Inline styling is used for demonstration purposes -->
-  <!-- In a real project, consider using external CSS -->
-  <?php
-  $day = 1;
-  while ($day <= 24) {
-      $background_color = ($day % 2 == 0) ? 'green' : 'red';
-      echo "<div style='width: 30px; height: 30px; background-color: $background_color; color: white; text-align: center; line-height: 30px; border: 1px solid #000;'>$day</div>";
-      $day++;
-  }
-  ?>
+<!-- Divs for the squares, each containing a number from 1 to 24 -->
+<div>
+    <div class="square">1</div>
+  <div class="square">2</div>
+  <div class="square">3</div>
+  <div class="square">4</div>
+  <div class="square">5</div>
+  <div class="square">6</div>
+  <div class="square">7</div>
+  <div class="square">8</div>
+  <div class="square">9</div>
+  <div class="square">10</div>
+  <div class="square">11</div>
+  <div class="square">12</div>
+  <div class="square">13</div>
+  <div class="square">14</div>
+  <div class="square">15</div>
+  <div class="square">16</div>
+  <div class="square">17</div>
+  <div class="square">18</div>
+  <div class="square">19</div>
+  <div class="square">20</div>
+  <div class="square">21</div>
+  <div class="square">22</div>
+  <div class="square">23</div>
+  <div class="square">24</div>
 </div>
 
 </body>
